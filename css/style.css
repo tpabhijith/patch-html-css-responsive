@@ -1089,9 +1089,10 @@ footer section.bottom div.social ul li a img {
 	}
 	#spotlight section.container div {
 		font-size: 12px;
+		justify-content: center;
 	}
 	#services {
-		padding-top: 0px;
+		padding-top: 20px;
 	}
 	#services .top div.arrow img {
 		display: inline-block;
@@ -1224,11 +1225,19 @@ footer section.bottom div.social ul li a img {
 	#press .wrapper div.left h4 {
 		font-size: 18px;
 	}
+	#press .wrapper div.right {
+		text-align: center; /*for checking */
+	}
+	#press .wrapper div.right ul li {
+		flex-direction: column;
+	}
 	#press .wrapper div.right ul li img {
-		width: 30px;
+		width: 40px;
+		margin-right: 0;
 	}
 	#press .wrapper div.right ul li span {
 		font-size: 12px;
+		margin-top: 10px;
 	}
 	#promo {
 		padding: 10px 0;
